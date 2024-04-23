@@ -1,19 +1,19 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
-//½Ç½À ±¸±¸´Ü (1) 5´Ü¸¸ Ãâ·Â (2) 1~9´Ü Ãâ·Â
+//ì‹¤ìŠµ êµ¬êµ¬ë‹¨ (1) 5ë‹¨ë§Œ ì¶œë ¥ (2) 1~9ë‹¨ ì¶œë ¥
 int main()
 {
 	int n = 5;
-	cout << "5´Ü Ãâ·Â" << endl;
+	cout << "5ë‹¨ ì¶œë ¥" << endl;
 	for (int i = 1; i <= 9; i++) {
 		cout << n << " * " << i << " = " << n * i << endl;
 	}
 	cout << endl;
 
-	cout << "1~9´Ü Ãâ·Â" << endl;
+	cout << "1~9ë‹¨ ì¶œë ¥" << endl;
 	for (int i = 1; i <= 9; i++) {
-		cout << "---" << i << "´Ü---" << endl;
+		cout << "---" << i << "ë‹¨---" << endl;
 		for (int j = 1; j <= 9; j++) {
 			
 			cout << i << " * " << j << " = " << i * j << endl;
