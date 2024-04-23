@@ -17,11 +17,12 @@ int main()
 
 	cout << endl;
 
-	cout << "¾î¶² °è»êÀ» ÇÏ½Ã°Ú½À´Ï±î? " << endl;
 	cout << "1. µ¡¼À 2. »¬¼À 3. °ö¼À 4. ³ª´°¼À"<< endl;
-	cout << endl;
+	cout << "¾î¶² °è»êÀ» ÇÏ½Ã°Ú½À´Ï±î? : ";
 	cin >> num;
+
 	cout << endl;
+
 	switch (num) {
 		case 1:
 			cout << n << "+" << m << "= " << n + m << endl;
