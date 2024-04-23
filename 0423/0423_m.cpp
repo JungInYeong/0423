@@ -8,13 +8,14 @@ int main()
 	cout << "숫자를 입력해주세요 ";
 	cin >> n;
 
-	if (n % 5 == 0) {
-		cout << n << "은 5의 배수 입니다" << endl;
-	}
-	else {
-		cout << n << "은 5의 배수가 아닙니다" << endl;
-	}
+	//if (n % 5 == 0) {
+	//	cout << n << "은 5의 배수 입니다" << endl;
+	//}
+	//else {
+	//	cout << n << "은 5의 배수가 아닙니다" << endl;
+	//}
 
 
+	n % 5 == 0 ? cout << "5의 배수" : cout << "5의 배수 아님";
 	return 0;
 }
