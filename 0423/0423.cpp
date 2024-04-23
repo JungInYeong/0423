@@ -6,7 +6,7 @@ using namespace std;
 
 int main()
 {
-	int n, m;
+	float n, m;
 	int num;
 
 	cout << "첫 번째 정수 입력 : ";
@@ -34,7 +34,7 @@ int main()
 			cout << n << "*" << m << "= " << n * m << endl;
 			break;
 		case 4:
-			cout << n << "/" << m << "= " << n / m << endl;
+					cout << n << "/" << m << "= " << n / m << endl;
 			break;
 	}
 
