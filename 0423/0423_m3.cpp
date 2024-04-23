@@ -7,7 +7,7 @@ int main()
 	int n = 5;
 	cout << "5단 출력" << endl;
 	for (int i = 1; i <= 9; i++) {
-		cout << n << "*" << i << "=" << n * i << endl;
+		cout << n << " * " << i << " = " << n * i << endl;
 	}
 	cout << endl;
 
@@ -16,7 +16,7 @@ int main()
 		cout << "---" << i << "단---" << endl;
 		for (int j = 1; j <= 9; j++) {
 			
-			cout << i << "*" << j << endl;
+			cout << i << " * " << j << " = " << i * j << endl;
 		}
 	}
 	
